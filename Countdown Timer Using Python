@@ -1,0 +1,10 @@
+ import time
+
+def countdown(t):
+    while t:
+        mins, secs = divmod (t, 60)
+        time format = '{:02d}: {:02d}’. format (mins, secs)
+        print (time format, end='\r')
+        time. Sleep (1)
+        t -= 1
+    print ('Goodbye! \n\n\n\n\n')
